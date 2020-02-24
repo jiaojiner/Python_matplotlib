@@ -11,6 +11,6 @@ X = [i for i in range(9)]
 # Y = [i for i in range(9)]
 Y = [random.randint(0, 9) for i in range(9)]
 
-plt.plot(X,Y)
+plt.plot(X, Y)
 plt.savefig('result1.png')
 plt.show()
